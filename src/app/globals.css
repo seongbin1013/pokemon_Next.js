@@ -26,6 +26,16 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
